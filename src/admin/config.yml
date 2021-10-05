@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/img"
+
+collections:
+  - name: "items"
+    label: "Item"
+    folder: "items"
+    create: true
+    slug: {{slug}}
+    fields:
+      - { label: "Titre", name: "titre", widget: "string" }
+      - { label: "Source", name: "source", widget: "string" }
+      - { label: "Lien", name: "lien", widget: "string" }
+      - { label: "Thématiques", name: "thematiques", widget: "list" }
+      - { label: "Extrait", name: "body", widget: "text" }
