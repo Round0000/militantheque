@@ -9,12 +9,9 @@ collections:
     label: "Item"
     folder: "items"
     create: true
-    slug:
-      encoding: "ascii"
-      clean_accents: true
-      sanitize_replacement: "_"
+    slug: "{{slug}}"
     fields:
-      - { label: "Titre", name: "titre", widget: "string" }
+      - { label: "Titre", name: "title", widget: "string" }
       - { label: "Source", name: "source", widget: "string" }
       - { label: "Lien", name: "lien", widget: "string" }
       - { label: "Thématiques", name: "thematiques", widget: "list" }
