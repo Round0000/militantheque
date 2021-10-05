@@ -7,7 +7,7 @@ media_folder: "static/img"
 collections:
   - name: "items"
     label: "Item"
-    folder: "items"
+    folder: "src/items"
     create: true
     slug: "{{slug}}"
     fields:
