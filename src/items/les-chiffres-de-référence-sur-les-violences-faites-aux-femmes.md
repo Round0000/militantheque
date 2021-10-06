@@ -1,7 +1,9 @@
 ---
 title: Les chiffres de référence sur les violences faites aux femmes
 source: Observatoire national des violences faites aux femmes
+year: 2019
 lien: https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes
+keywords: violences faites aux femmes au sein du couple au niveau national données tentatives de viol sexisme féminicide
 thematiques:
   - statistiques
 ---

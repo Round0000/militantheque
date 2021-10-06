@@ -27,7 +27,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
         match.test(query.title) ||
         match.test(query.source) ||
         match.test(query.extrait) ||
-        match.test(query.thematiques)
+        match.test(query.thematiques) ||
+        match.test(query.year) ||
+        match.test(query.keywords)
     );
     if (result.length === 0) {
       const li = document.createElement("li");
@@ -38,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     result.forEach((e) => {
       const li = document.createElement("li");
       li.innerHTML = `
-        <a href="${e.lien}" target="_blank" class="item">
+        <a href="${e.lien}" target="_blank" rel="noopener noreferrer" class="item">
             <h2>${e.title}</h2>
             <span>${e.source}</span>
             <p>${e.extrait}</p>

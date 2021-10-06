@@ -7,7 +7,9 @@ permalink: '/search.json'
     {
       "title":"{{ item.data.title }}",
       "source":"{{ item.data.source }}",
+      "year":"{{ item.data.year }}",
       "lien":"{{ item.data.lien | url }}",
+      "keywords":"{{ item.data.keywords }}",
       "extrait":"{{ item.templateContent | safe | onlyText }}"
     }
   {% if loop.last == false %},{% endif %} {% endfor %}

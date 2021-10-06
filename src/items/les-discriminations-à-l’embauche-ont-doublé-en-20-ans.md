@@ -1,7 +1,9 @@
 ---
 title: Les discriminations à l’embauche ont doublé en 20 ans
 source: Maddyness.com
+year: 2021
 lien: https://www.maddyness.com/2021/06/11/discriminations-embauche-etude-ifop/
+keywords: femmes discriminations à l'embauche salariés étude enquête
 thematiques:
   - statistiques
 ---

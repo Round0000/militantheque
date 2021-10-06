@@ -13,6 +13,8 @@ collections:
     fields:
       - { label: "Titre", name: "title", widget: "string" }
       - { label: "Source", name: "source", widget: "string" }
+      - { label: "Année", name: "year", widget: "string" }
       - { label: "Lien", name: "lien", widget: "string" }
       - { label: "Thématiques", name: "thematiques", widget: "list" }
+      - { label: "Mots-clés", name: "keywords", widget: "string" }
       - { label: "Extrait", name: "body", widget: "text" }

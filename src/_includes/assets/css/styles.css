@@ -37,15 +37,15 @@ body {
 .item {
   display: block;
   position: relative;
-  max-width: 70ch;
+  max-width: 50ch;
   background-color: rgb(247, 247, 247);
-  border: 3px solid rgba(250, 128, 114, 0.6);
+  border: 3px solid rgba(250, 128, 114, 0.5);
   text-decoration: none;
   margin: 1em;
   color: #222;
   transition: all 0.1s;
   height: max-content;
-  box-shadow: 2px 2px 0 rgba(153, 150, 150, 0.6);
+  box-shadow: 1px 2px 0px rgba(165, 165, 165, 0.4);
 }
 
 .item:hover,

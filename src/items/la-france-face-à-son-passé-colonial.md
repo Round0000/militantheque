@@ -1,7 +1,9 @@
 ---
 title: La France face à son passé colonial
 source: L'influx, webzine de la bibliothèque municipale de Lyon
+year: 2018
 lien: http://www.linflux.com/non-classe/la-france-et-son-passe-colonial/
+keywords: france coloniale algérie société française voile colonisé domination république frantz fanon administration race oriental identité histoire
 thematiques:
   - postcolonialités
 ---
