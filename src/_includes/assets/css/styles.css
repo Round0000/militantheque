@@ -6,7 +6,7 @@
 
 body {
   font-family: "Atkinson Hyperlegible", sans-serif;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .search {
@@ -55,9 +55,9 @@ body {
   border: 3px solid rgba(250, 128, 114, 0.7);
 }
 
-.item:hover p,
-.item:focus p {
-  background-color: rgb(253, 253, 253);
+.item:hover h2,
+.item:focus h2 {
+  background-color: rgb(237, 238, 243);
 }
 
 .item > * {
@@ -65,7 +65,7 @@ body {
 }
 
 .item h2 {
-  line-height: 1.1;
+  line-height: 1;
   font-size: 1.2rem;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -88,4 +88,12 @@ body {
   padding-bottom: 0.5em;
   background-color: transparent;
   transition: all 0.1s;
+}
+
+#backtotop {
+  display: block;
+  margin: 1.5em auto;
+  font-size: 1rem;
+  color: #555;
+  padding: .5em .75em;
 }

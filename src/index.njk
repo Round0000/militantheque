@@ -13,8 +13,17 @@ layout: layouts/base.njk
         <hr>
 
         <ul id="results">
-
+          {% for item in collections.items %}
+            <li>
+              <a href="{{ item.data.lien }}" target="_blank" rel="noopener noreferrer" class="item">
+                <h2>{{ item.data.title }}</h2>
+                <span>{{ item.data.source }}</span>
+                {{ item.templateContent | safe }}
+              </a>
+            </li>
+          {% endfor %}
         </ul>
+        <a id="backtotop" href="#">Retour en haut de page</a>
       </div>
   </section>
 <script defer type="text/javascript" src="/_includes/assets/js/search.js"></script>
