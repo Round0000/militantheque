@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     result.forEach((e) => {
       const li = document.createElement("li");
       li.innerHTML = `
-        <a href="${e.lien}" class="item">
+        <a href="${e.lien}" target="_blank" class="item">
             <h2>${e.title}</h2>
             <span>${e.source}</span>
             <p>${e.extrait}</p>
