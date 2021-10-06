@@ -17,16 +17,5 @@
     </head>
     <body>
         {{ content | safe }}
-        <section>
-            {% for item in collections.items %}
-                <a href="{{ item.data.lien }}" class="item">
-                    <article>
-                        <h2>{{ item.data.title }}</h2>
-                        <span>{{ item.data.source }}</span>
-                        <p>{{ item.data.content | safe }}</p>
-                    </article>
-                </a>
-            {% endfor %}
-        </section>
     </body>
 </html>

@@ -1,0 +1,14 @@
+---
+permalink: '/search.json'
+---
+
+[
+  {% for item in collections.items %}
+    {
+      "title":"{{ item.data.title }}",
+      "source":"{{ item.data.source }}",
+      "lien":"{{ item.data.lien | url }}",
+      "extrait":"{{ item.templateContent | safe | onlyText }}"
+    }
+  {% if loop.last == false %},{% endif %} {% endfor %}
+]
