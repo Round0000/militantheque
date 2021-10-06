@@ -2,7 +2,8 @@
 title: Discrimination à l'embauche en France
 source: Wikipédia FR
 lien: https://fr.wikipedia.org/wiki/Discrimination_%C3%A0_l%27embauche_en_France
-keywords: discrimination embauche apparence physique obésité origine emploi marché du travail cv handicap type chances femmes français enquête âge français de souche discriminatoire
+year: 
+keywords: discrimination embauche apparence physique obésité origine emploi marché du travail cv handicap type chances femmes français enquête âge français de souche discriminatoire racisme raciste
 thematiques:
   - statistiques
 ---

@@ -4,7 +4,7 @@ title: "Discrimination à l'embauche : les résultats de la campagne de testing
 source: France Inter
 lien: https://www.franceinter.fr/economie/discrimination-a-l-embauche-les-resultats-de-la-campagne-de-testing-passee-sous-silence-par-le-gouvernement
 year: 2020
-keywords: entreprises testing discrimination étude candidatures emploi patronyme
+keywords: entreprises testing discrimination étude candidatures emploi patronyme racisme raciste
 thematiques:
   - statistiques
 ---

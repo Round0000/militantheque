@@ -4,7 +4,7 @@ title: "Françoise Vergès (politologue) : « Comment le capitalisme gère-t-il 
 source: Entretien auprès du mensuel Alternative libertaire
 year: 2017
 lien: https://www.unioncommunistelibertaire.org/?Francoise-Verges-politologue-Comment-le-capitalisme-gere-t-il-le-ventre-des
-keywords: femmes racisées féminisme état france outre-mer réunion capitalisme avortement classe sociale colonies reproduction blancs consentement corps mlf traite années 1970
+keywords: femmes racisées féminisme état france outre-mer réunion capitalisme avortement classe sociale colonies reproduction blancs consentement corps mlf traite années 1970 racisme raciste
 thematiques:
   - postcolonialités
 ---
