@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       li.innerHTML = `
         <a href="${e.lien}" target="_blank" rel="noopener noreferrer" class="item">
             <h2>${e.title}</h2>
-            <span>${e.source}</span>
+            <span>${e.source} | ${e.year}</span>
             <p>${e.extrait}</p>
         </a>
       `;

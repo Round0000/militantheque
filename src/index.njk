@@ -17,7 +17,7 @@ layout: layouts/base.njk
             <li>
               <a href="{{ item.data.lien }}" target="_blank" rel="noopener noreferrer" class="item">
                 <h2>{{ item.data.title }}</h2>
-                <span>{{ item.data.source }}</span>
+                <span>{{ item.data.source }} | {{ item.data.year }}</span>
                 {{ item.templateContent | safe }}
               </a>
             </li>
